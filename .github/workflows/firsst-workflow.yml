@@ -1,9 +1,7 @@
 name: Firsst Workflow
 
-on:
-  workflow_dispatch:
-  issues:
-    types: [opened]
+on: push
+
 
 jobs:
   job1:
